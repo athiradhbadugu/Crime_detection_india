@@ -92,6 +92,6 @@ This website is a dashboard for crimes in India displaying and predicting differ
 To run this project, install libraries given above:
 
 ```
-$ cd crime-dashboard-for-India/
+$ cd Crime_detection_india/
 $ flask run
 ```
