@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Crime Index Application</title>
+</head>
+
+<body>
+  <div class="pimg1" style="background-image: url({{url_for('static',filename='images/Crime_1.jpg')}});"> >
+    <div class="ptext">
+      <span class="border">
+        Crime In India
+      </span>
+      <br></br>
+        <button type="submit" onclick="location.href='{{url_for('main')}}'" class="button" >Get started <i class="fas fa-angle-double-right"></i> </button>
+    </div>
+
+  </div>
+  <section class="section section-light">
+    <h2>How to Defend Yourself?</h2>
+    <p>Taking steps to prevent crime can help lower chances of an attack, but there are no guarantees of complete safety. For this reason, it's a good idea to have several plans on how to defend yourself and your property.
+
+"Think through what you will do," urges Robert McCrie, PhD, professor of security management at John Jay College of Criminal Justice in New York City. "Will you willingly give up your wallet or your purse, and if you're willing to do that, isn't it a good idea to make a photocopy of all my ID and credit cards and keep it in a safe place? Or will you keep it? What will you do then?"
+
+Some of the plans will depend upon a person's age, sex, and personal fitness, but McCrie reminds us that even highly-trained FBI agents can get caught off guard and have no qualms about escape as their primary plan.</p>
+  </section>
+  <div class="pimg2" style="background-image: url({{url_for('static',filename='images/crime_3.jpg')}});">
+    <div class="ptext">
+      <span class="border">
+        Crime against Women
+      </span>
+    </div>
+  </div>
+  <section class="section section-dark">
+    <h2>Section Two</h2>
+    <p>Taking steps to prevent crime can help lower chances of an attack, but there are no guarantees of complete safety. For this reason, it's a good idea to have several plans on how to defend yourself and your property.
+
+"Think through what you will do," urges Robert McCrie, PhD, professor of security management at John Jay College of Criminal Justice in New York City. "Will you willingly give up your wallet or your purse, and if you're willing to do that, isn't it a good idea to make a photocopy of all my ID and credit cards and keep it in a safe place? Or will you keep it? What will you do then?"
+
+Some of the plans will depend upon a person's age, sex, and personal fitness, but McCrie reminds us that even highly-trained FBI agents can get caught off guard and have no qualms about escape as their primary plan..</p>
+  </section>
+  <div class="pimg3" style="background-image: url({{url_for('static',filename='images/crime_2.jpg')}});">
+    <div class="ptext">
+      <span class="border">
+        Juvenlille crime
+      </span>
+    </div>
+  </div>
+  <section class="section section-dark">
+    <div class="counters">
+      <div class="container">
+        <div>
+          <div class="counter" data-target="405861">0</div>
+            <h1>Crime against Women</h1>
+        </div>
+
+        <div>
+          <div class="counter" data-target="360089">0</div>
+          <h1>Murders</h1>
+        </div>
+        <div>
+          <div class="counter" data-target="148185">0</div>
+            <h1>Crime against Childern</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pimg1">
+
+
+  </div>
+  <script src="{{url_for('static',filename='js/app.js')}}" charset="utf-8"></script>
+</body>
+
+</html>
