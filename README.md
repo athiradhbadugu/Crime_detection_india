@@ -55,11 +55,3 @@ $ flask run
 This helps to focus on selected crimes 
 e.g theft,robbery,burglary,auto theft.
 ![image](https://user-images.githubusercontent.com/50488701/121696001-40e6f280-cae9-11eb-8c38-6b4415a1e8c3.png)
-
-# crime-dashboard-for-India
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Features](#features)
-* [Features to be added](#features-to-be-added)
-* [Setup](#setup)
